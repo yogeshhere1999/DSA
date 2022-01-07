@@ -1,6 +1,5 @@
 import java.util.*;
-import java.io.*;
-public class IsANumberPrime {
+public class IsANumberPrime{
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
     
