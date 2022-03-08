@@ -1,10 +1,7 @@
+import java.util.*;
+
 public class AnyBaseAddition {
-    
-    import java.util.*;
-  
-    
-    
-    public static void main(String[] args) {
+       public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int b = scn.nextInt();
         int n1 = scn.nextInt();

@@ -1,8 +1,10 @@
+import java.util.*;
+
+
 public class AnyBaseMul {
-    
-    import java.util.*;
 
     
+
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int b = scn.nextInt();
@@ -12,8 +14,8 @@ public class AnyBaseMul {
         int d = getProduct(b, n1, n2);
         System.out.println(d);
      }
-    
-     public static int getProduct(int b, int n1, int n2){
+
+    public static int getProduct(int b, int n1, int n2){
          // write your code here
          int rv =0;
          int p =1;
@@ -26,8 +28,8 @@ public class AnyBaseMul {
          }
          return rv;
      }
-    
-     public static int PrdWithSingleDigit(int b,int n1,int d2){
+
+    public static int PrdWithSingleDigit(int b,int n1,int d2){
          int rv = 0;
          int p=1;
          int c = 0;
@@ -47,7 +49,8 @@ public class AnyBaseMul {
          return rv;
     
      }
-        public static int getSum(int b, int n1, int n2){
+
+    public static int getSum(int b, int n1, int n2){
            // write ur code here
            int sum =0;
            int c=0;
@@ -68,5 +71,5 @@ public class AnyBaseMul {
         return sum;
            
        }
-    
-    }
+
+}

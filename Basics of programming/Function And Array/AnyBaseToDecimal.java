@@ -1,6 +1,7 @@
+import java.util.*;
 public class AnyBaseToDecimal {
     
-    import java.util.*;
+  
   
     
     
