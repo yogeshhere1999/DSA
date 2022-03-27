@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main{
+public class FibByTabukation&Memo&PrintingSeries{
 
 public static void main(String[] args) throws Exception {
     // write your code here
